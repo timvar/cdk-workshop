@@ -72,6 +72,19 @@
     "@aws-cdk/core" "1.71.0"
     constructs "^3.2.0"
 
+"@aws-cdk/aws-cloudformation@1.71.0":
+  version "1.71.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cloudformation/-/aws-cloudformation-1.71.0.tgz#9e470bc003c8ef8b04fe5eff22e00484a822c711"
+  integrity sha512-QfI+8X3N7Qp+PFv3c9b+nB5quex2jDHy2UATmOhRoOUdaMuuQ7QcDakG0V4EGbmXI9QKAfejc38tUoIfJf8n5Q==
+  dependencies:
+    "@aws-cdk/aws-iam" "1.71.0"
+    "@aws-cdk/aws-lambda" "1.71.0"
+    "@aws-cdk/aws-s3" "1.71.0"
+    "@aws-cdk/aws-sns" "1.71.0"
+    "@aws-cdk/core" "1.71.0"
+    "@aws-cdk/cx-api" "1.71.0"
+    constructs "^3.2.0"
+
 "@aws-cdk/aws-cloudwatch@1.71.0":
   version "1.71.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cloudwatch/-/aws-cloudwatch-1.71.0.tgz#0ae247e5bac5504ae02afeaff4f80390378770f5"
@@ -88,6 +101,20 @@
   dependencies:
     "@aws-cdk/aws-iam" "1.71.0"
     "@aws-cdk/core" "1.71.0"
+    constructs "^3.2.0"
+
+"@aws-cdk/aws-dynamodb@^1.71.0":
+  version "1.71.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-dynamodb/-/aws-dynamodb-1.71.0.tgz#e6959c1e58ff6a344e95e04e9264061e1f8fb7cf"
+  integrity sha512-NV0ecEUJzT64UicHZKQY+WX5oqF5L+VsVSAmA3go9MBSW/yeGWtc7gbiOr3Cv9F+48UER9UhQtpPhWQ2+Os0Gg==
+  dependencies:
+    "@aws-cdk/aws-applicationautoscaling" "1.71.0"
+    "@aws-cdk/aws-cloudwatch" "1.71.0"
+    "@aws-cdk/aws-iam" "1.71.0"
+    "@aws-cdk/aws-kms" "1.71.0"
+    "@aws-cdk/aws-lambda" "1.71.0"
+    "@aws-cdk/core" "1.71.0"
+    "@aws-cdk/custom-resources" "1.71.0"
     constructs "^3.2.0"
 
 "@aws-cdk/aws-ec2@1.71.0":
@@ -313,6 +340,19 @@
     constructs "^3.2.0"
     fs-extra "^9.0.1"
     minimatch "^3.0.4"
+
+"@aws-cdk/custom-resources@1.71.0":
+  version "1.71.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/custom-resources/-/custom-resources-1.71.0.tgz#e985e7e099e84b829da8961ce250be1f90351aed"
+  integrity sha512-hxlQFQOpu+oe0hjvSa8XZmSRfIjzc+4xS+2bkIKzfhckMO26T3RlLjppQPneQ0a++EPdFrsWCOPic/ZNo7HjdA==
+  dependencies:
+    "@aws-cdk/aws-cloudformation" "1.71.0"
+    "@aws-cdk/aws-iam" "1.71.0"
+    "@aws-cdk/aws-lambda" "1.71.0"
+    "@aws-cdk/aws-logs" "1.71.0"
+    "@aws-cdk/aws-sns" "1.71.0"
+    "@aws-cdk/core" "1.71.0"
+    constructs "^3.2.0"
 
 "@aws-cdk/cx-api@1.71.0":
   version "1.71.0"
