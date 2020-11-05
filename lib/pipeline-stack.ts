@@ -25,10 +25,10 @@ export class WorkshopPipelineStack extends cdk.Stack {
         output: sourceArtifact,
         repository: repo,
       }),
-      synthAction: SimpleSynthAction.standardYarnSynth({
+      synthAction: SimpleSynthAction.standardNpmSynth({
         sourceArtifact,
         cloudAssemblyArtifact,
-        buildCommand: 'yarn build'
+        buildCommand: 'npm run build'
       })
     });
 
