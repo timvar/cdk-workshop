@@ -94,6 +94,16 @@
     "@aws-cdk/core" "1.71.0"
     constructs "^3.2.0"
 
+"@aws-cdk/aws-codecommit@^1.71.0":
+  version "1.71.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codecommit/-/aws-codecommit-1.71.0.tgz#c875e8134666d63a5ad91a729344d4fd69bf46fa"
+  integrity sha512-rFWvQhREK5rybWO/oZuFnZNzx6D6S9IW8Tq4RB64ystA1cR0cTVBpleT3aTdjzizFJYNCUqyy6Ju2yWOsX6/aw==
+  dependencies:
+    "@aws-cdk/aws-events" "1.71.0"
+    "@aws-cdk/aws-iam" "1.71.0"
+    "@aws-cdk/core" "1.71.0"
+    constructs "^3.2.0"
+
 "@aws-cdk/aws-codeguruprofiler@1.71.0":
   version "1.71.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codeguruprofiler/-/aws-codeguruprofiler-1.71.0.tgz#cdbb8078cbc8e479daa71d852c06624461cd2bd6"
